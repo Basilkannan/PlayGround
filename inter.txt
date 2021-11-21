@@ -1,0 +1,20 @@
+import java.io.*;
+public class Read
+{
+public static void main (String args[])throws IOException
+{
+file project=new file(G:\besmi)
+BufferedReader br = new BufferedReader(new FileReader(air act));
+String st;
+while(st=br.readline()!=null)
+System.out.println(st);
+}
+System.println("enter the phrases to be searched");
+String phrases=in.nextline();
+System.println("enter the new word to be replaced");
+String new=in.nextline();
+if(st.contains(phrases))
+{
+ System.out.println(st.replace(phrases,new));
+}
+}
